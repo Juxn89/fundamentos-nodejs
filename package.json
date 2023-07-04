@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "build": "gulp build",
+    "serve": "gulp serve",
+    "start": "gulp",
+    "start:electron": "electron ./herramientas/electron/"
+  },
+  "dependencies": {
+    "bcrypt": "5.1.0",
+    "electron": "25.2.0",
+    "gulp": "4.0.2",
+    "gulp-server-livereload": "1.9.2",
+    "moment": "2.29.4",
+    "puppeteer": "20.7.4",
+    "sharp": "0.32.1"
+  }
+}
